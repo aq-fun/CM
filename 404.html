@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <script>
       (function (l) {
-        l.replace(l.origin + "/#" + l.pathname);
+        l.replace(l.origin + "/CM/#" + l.pathname.substr(l.pathname.indexOf("/", 1)));
       })(window.location);
     </script>
   </head>
