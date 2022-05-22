@@ -2,6 +2,7 @@
         if (l.hash) {
           const hash = l.hash.slice(1);
           if (hash.indexOf("/") != -1) {
+            console.log(hash);
             window.history.replaceState(null, null, "CM" + hash);
           }
         }
